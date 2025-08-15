@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamal Khawaja Building Contracting Co. LLC</title>
+    <!-- Use Tailwind CSS for a modern, responsive design -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-yellow-100 text-slate-900">
+
+    <!-- Header Section -->
+    <header class="bg-yellow-400 shadow-lg sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <!-- Company Logo and Name -->
+            <div class="flex items-center space-x-3">
+                <a href="#" class="text-2xl font-bold text-slate-900">
+                    Kamal Khawaja <span class="text-slate-900">Building Contracting Co. LLC (KKC)</span>
+                </a>
+            </div>
+            
+            <nav class="hidden md:flex space-x-6">
+                <a href="#about" class="text-slate-900 hover:text-slate-700 transition-colors">About Us</a>
+                <a href="#projects" class="text-slate-900 hover:text-slate-700 transition-colors">Projects</a>
+                <a href="#contact" class="text-slate-900 hover:text-slate-700 transition-colors">Contact</a>
+            </nav>
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden text-slate-900 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="bg-yellow-500 text-slate-900 py-20 md:py-32 flex items-center justify-center text-center">
+            <div class="container mx-auto px-4">
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4">
+                    Building a Better Future, <br>One Project at a Time
+                </h1>
+                <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8 text-slate-800">
+                    Your trusted partner in Dubai for high-quality residential and commercial construction.
+                </p>
+                <a href="#projects" class="bg-slate-900 text-yellow-100 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-slate-700 transition-colors">
+                    Explore Our Projects
+                </a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-16 md:py-24 bg-yellow-100">
+            <div class="container mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
+                <div class="md:order-2">
+                    <img src="https://placehold.co/800x600/1E293B/E2E8F0?text=About+Our+Company" alt="Company overview" class="rounded-xl shadow-lg">
+                </div>
+                <div class="md:order-1">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">About Us</h2>
+                    <p class="text-lg text-slate-800 mb-4">
+                        Kamal Khawaja Building Contracting Co. LLC is a premier construction company based in Dubai, UAE. With years of experience and a commitment to excellence, we have successfully delivered a wide range of projects, from elegant residential villas to large-scale commercial buildings.
+                    </p>
+                    <p class="text-lg text-slate-800">
+                        Our mission is to turn our clients' visions into reality by providing superior craftsmanship, innovative solutions, and unwavering dedication to every project. We prioritize safety, quality, and timely delivery, ensuring complete client satisfaction.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="bg-yellow-200 py-16 md:py-24">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Our Projects</h2>
+                <p class="text-lg text-slate-800 max-w-3xl mx-auto mb-12">
+                    Explore a selection of our completed work, showcasing our expertise in residential and commercial construction across Dubai.
+                </p>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project Card 1 -->
+                    <div class="bg-yellow-100 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                        <img src="https://placehold.co/600x400/312E81/E2E8F0?text=Residential+Villa" alt="Residential Villa Project" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Luxury Residential Villa</h3>
+                            <p class="text-slate-700">A stunning modern villa project with custom interiors and a beautiful landscape design in Jumeirah.</p>
+                        </div>
+                    </div>
+                    <!-- Project Card 2 -->
+                    <div class="bg-yellow-100 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                        <img src="https://placehold.co/600x400/4F46E5/E2E8F0?text=Commercial+Tower" alt="Commercial Tower Project" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Al Anwaar & Al Shahd Towers</h3>
+                            <p class="text-slate-700">A high-rise commercial building featuring modern office spaces and retail outlets in the heart of Dubai.</p>
+                        </div>
+                    </div>
+                    <!-- Project Card 3 -->
+                    <div class="bg-yellow-100 rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                        <img src="https://placehold.co/600x400/4338CA/E2E8F0?text=Mixed-Use+Development" alt="Mixed-Use Development Project" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-slate-900 mb-2">Sharjah University Research Building</h3>
+                            <p class="text-slate-700">A complex mixed-use development blending residential apartments and commercial spaces for modern living.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 md:py-24 bg-yellow-100">
+            <div class="container mx-auto px-4 grid md:grid-cols-2 gap-12">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Get in Touch</h2>
+                    <p class="text-lg text-slate-800 mb-8">
+                        Ready to start your next project? Contact us today to discuss your ideas and get a free consultation.
+                    </p>
+                    <form class="space-y-6">
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-slate-900">Full Name</label>
+                            <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-slate-400 shadow-sm focus:border-slate-700 focus:ring-slate-700 p-3 bg-white text-slate-900">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-slate-900">Email Address</label>
+                            <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-slate-400 shadow-sm focus:border-slate-700 focus:ring-slate-700 p-3 bg-white text-slate-900">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-slate-900">Message</label>
+                            <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-slate-400 shadow-sm focus:border-slate-700 focus:ring-slate-700 p-3 bg-white text-slate-900"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-slate-900 text-yellow-100 font-bold py-3 px-6 rounded-md shadow-lg hover:bg-slate-700 transition-colors">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4">Our Office</h3>
+                    <p class="text-lg text-slate-800">Business Bay</p>Phone: +971 4 355 9259
+                    <p class="text-lg text-slate-800">P.O. Box: 3840</p>
+                    <p class="text-lg text-slate-800 mb-6">Dubai, United Arab Emirates</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.158498877685!2d55.26760591500366!3d25.19525498390703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42e47c1f10c3%3A0xa126b42b781f7278!2sDAMAC%20Business%20Tower!5e0!3m2!1sen!2sae!4v1678229649176!5m2!1sen!2sae" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-yellow-400 text-slate-900 py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Kamal Khawaja Building Contracting Co. LLC. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
